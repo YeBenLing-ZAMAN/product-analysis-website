@@ -6,3 +6,12 @@
 .CustomLink-container a:hover{
     color: rgb(63, 123, 201);
 }
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .CustomLink-container a{
+        margin-left : 15px ;
+        font-size: 18px;
+    }
+    
+}
