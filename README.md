@@ -1,4 +1,4 @@
-# Great Anime series Review Website
+# Great Adventure Anime series Review Website
 
 For the live website link: [Click Here](https://adventure-anime-yebenling.netlify.app/).
 

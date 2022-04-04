@@ -12,7 +12,7 @@ const Blogs = () => {
                         what is  React Context API ?
                     </p>
                     <p className='text-gray-600'>
-                        we know that react is better for it profomance. The one secrets is one Understand one-way data bindings. But in here some problem are occur line if we though data in route and subroute component then all component are need to <strong>"Prop Drilling"</strong>.And it not effecient. So, solve this problem they have Context API in react.
+                        we know that react is better for it profomance. The one secrets is one-way data bindings. But in here some problem are occur when if we though data in route and subroute component then all component are need to <strong>"Prop Drilling"</strong>.And it not effecient. So, solve this problem they have Context API in react.
                         <br />
                         The React Context API is a way for a React app to effectively produce global variables that can be passed around.Context is designed to share data that can be considered <strong>“global” for a tree of React components </strong>and then in side router components can easily acesses.
                     </p>
