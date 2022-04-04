@@ -3,6 +3,7 @@ import useComments from '../hooks/useComments';
 import Review from '../Review/Review';
 
 const CustomerReiews = () => {
+    /* custom hook for looding comments for api and then load */
     const [comments] = useComments();
     return (
         <div className=''>

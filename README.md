@@ -6,7 +6,7 @@ For the live website link: [Click Here](https://adventure-anime-yebenling.netlif
 
 - ### `Home page view and live watch link`
 
-- ### `Reviewer Comments and Ratting`
+- ### `Reviewer Comments and Ratting In this pages`
 
 - ### `Deshboard for compare`
 

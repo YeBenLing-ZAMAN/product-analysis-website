@@ -21,6 +21,7 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
+                {/* image the main page */}
                 <div className='w-full h-full rounded-lg flex items-center justify-center oder-1 md:order-2'>
                     <img src="https://i.ibb.co/xftQCp9/recs-attackontitan2-removebg-preview.png" alt="" />
                 </div>
