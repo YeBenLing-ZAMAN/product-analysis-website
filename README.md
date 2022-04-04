@@ -1,10 +1,8 @@
 # Great Anime series Review Website
 
-The live website link: [Click Here](https://adventure-anime-yebenling.netlify.app/).
+For the live website link: [Click Here](https://adventure-anime-yebenling.netlify.app/).
 
 ## what is have this website 
-
-In the project directory, you can run:
 
 - ### `Home page view and live watch link`
 
