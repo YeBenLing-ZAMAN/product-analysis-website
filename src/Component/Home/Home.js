@@ -31,7 +31,7 @@ const Home = () => {
             {/* customer review section */}
             <div className='flex flex-col justify-around items-center md:h-[100vh]'>
                 <div className='px-20'>
-                    <h1 className='text-center text-5xl my-10'>Customer Reviews</h1>
+                    <h1 className='text-center text-5xl my-10'>User Reviews</h1>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         {
                             speicalComments.map(comment => <Review key={comment._id} comment={comment}></Review>)
