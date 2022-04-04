@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+        <div className='bg-zinc-100 shadow-lg sticky top-0'>
         <nav className='flex justify-around py-8 px-8'>
             <div>
                 <h1 className='text-3xl hidden md:block'>Adventure Anime...</h1>
