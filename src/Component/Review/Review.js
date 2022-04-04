@@ -3,7 +3,7 @@ import React from 'react';
 const Review = ({comment}) => {
     const {name,email,comments,rating} =comment;
     return (
-        <div className="p-8 bg-cyan-200 w-full rounded-lg shadow-lg">
+        <div className="p-8 bg-cyan-200 w-full rounded-lg shadow-lg flex ">
                     <div className=" p-4 bg-gray-100 rounded-lg">
                         <div className="flex items-center">
                             <img className="h-24 w-24 rounded-full" src="https://i.ibb.co/xftQCp9/recs-attackontitan2-removebg-preview.png" alt="" />

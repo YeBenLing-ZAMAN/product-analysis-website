@@ -2,8 +2,11 @@ import React from 'react';
 import './Home.css';
 import useComments from '../hooks/useComments';
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 const Home = () => {
+    /* use custom useState for abort code duplicated */
     const [comments] = useComments();
+    /* separated three Review commnets of array for showing home page  */
     const speicalComments = comments.slice(0, 3);
     return (
         <>
@@ -11,7 +14,7 @@ const Home = () => {
                 <div className='flex  explore-btn order-2 md:order-2'>
                     <div className='justify-end items-center p-8'>
                         <h1 className='font-mono text-xl md:text-5xl '>
-                            “It’s Just So Dark and Terrifying”: <br /> The Voices Behind Attack On Titan’s Final Season<span className='text-6xl'>☕</span>
+                            <span className='font-bold'>“It’s Just So Dark and </span><span className='text-orange-500 font-bold'>Terrifying</span><span className='font-bold'>”: </span><br /> The Voices Behind Attack On Titan’s Final Season<span className='text-6xl'>☕</span>
                         </h1>
                         <button className='py-4 px-7 text-white mt-3 text-2xl rounded-full bg-cyan-600 '>
                             Explore Coins
@@ -26,7 +29,7 @@ const Home = () => {
 
             {/* customer review section */}
             <div className='flex flex-col justify-around items-center md:h-[100vh]'>
-                <div>
+                <div className='px-20'>
                     <h1 className='text-center text-5xl my-10'>Customer Reviews</h1>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         {
@@ -34,12 +37,10 @@ const Home = () => {
                         }
                     </div>
                 </div>
-
                 <br />
-
-                <button className='py-4 px-7 text-white mt-3 text-2xl  rounded-full bg-cyan-600 '>
+                <Link to='/reviews' className='py-4 px-7 text-white mt-3 text-2xl  rounded-full bg-cyan-600 '>
                     More Review
-                </button>
+                </Link>
 
             </div>
         </>
