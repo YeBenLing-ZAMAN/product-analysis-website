@@ -10,7 +10,7 @@ const Review = ({comment}) => {
                             <div className="p-3">
                                 {/* <h1 className="text-base font-medium">written by</h1> */}
                                 <h1 className=" text-base font-medium"><span className='text-xl font-bold'>{name}</span> || <span className="underline underline-offset-1">{email}</span></h1>
-                                <h1 className="text-base ">rating: <span className="font-bold">{rating}</span></h1>
+                                <h1 className="text-base ">Rating: <span className="font-bold">{rating}</span></h1>
                             </div>
                         </div>
                         <div className="mt-5">

@@ -14,10 +14,10 @@ const Home = () => {
                 <div className='flex  explore-btn order-2 md:order-2'>
                     <div className='justify-end items-center p-8'>
                         <h1 className='font-mono text-xl md:text-5xl '>
-                            <span className='font-bold'>“It’s Just So Dark and </span><span className='text-orange-500 font-bold'>Terrifying</span><span className='font-bold'>”: </span><br /> The Voices Behind Attack On Titan’s Final Season<span className='text-6xl'>☕</span>
+                            <span className='font-bold'>“It’s Just So Dark and </span><span className='text-orange-500 font-bold'>Terrifying</span><span className='font-bold'>”: </span><br /><span className='md:text-4xl'>The Voices Behind</span> <br /> <span className='text-orange-500 font-bold'>Attack On Titan’s </span><br /> <span className='md:text-4xl'>Final Season</span><span className='text-6xl'>☕</span>
                         </h1>
                         <button className='py-4 px-7 text-white mt-3 text-2xl rounded-full bg-cyan-600 '>
-                            Explore Coins
+                            Watch Now
                         </button>
                     </div>
                 </div>

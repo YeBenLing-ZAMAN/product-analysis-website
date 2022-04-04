@@ -67,6 +67,7 @@ const DashBoard = () => {
                         <PieChart width={730} height={350}>
                             <Pie data={datas} dataKey="investment" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#f74f68" />
                             <Pie data={datas} dataKey="sell" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#2438f0" label />
+                            <Tooltip></Tooltip>
                         </PieChart>
                     </div>
                 </div>
